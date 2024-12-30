@@ -1,0 +1,20 @@
+mukarrar adad He_1 := 1000;
+lafz Li_2 := "Complex";
+boolean Be_2 := sahi;
+nishan B_2 := "X";
+fahrist adad C_1 := 50;
+
+dobara (He_1 > 0) {
+    agar (Be_2 == sahi) {
+        adad N_1 := He_1 / 10;
+        agar (N_1 < 50) {
+            Be_2 := ghalat;
+        }
+    } warna {
+        adad O_1 := He_1 * 2;
+        agar (O_1 > 1500) {
+            roko;
+        }
+    }
+    He_1 := He_1 - 100;
+}

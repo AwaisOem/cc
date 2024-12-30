@@ -1,0 +1,7 @@
+lafz Ne_1 := "Chemical reaction";
+fahrist adad Ar_1 := 10;
+mukarrar adad Cl_1 := 20;
+
+agar (Ar_1 <= Cl_1) {
+    adad B_1 := Cl_1 - Ar_1;
+}

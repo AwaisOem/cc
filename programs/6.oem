@@ -1,0 +1,17 @@
+lafz Mg_1 := "H2O";
+lafz Al_1 := "NaCl";
+lafz Si_1 := "Chem3ical";
+mukarrar lafz P_1 := "Reaction";
+
+agar (Mg_1 != Al_1 && Si_1 != P_1) {
+    adad S_1 := 100;
+    adad Cl_1 := 200;
+    
+    dobara (S_1 > 0 && Cl_1 > 100) {
+        agar (S_1 * 2 <= Cl_1) {
+            S_1 := S_1 - 10;
+        } warna {
+            Cl_1 := Cl_1 - 25;
+        }
+    }
+}

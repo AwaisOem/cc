@@ -1,0 +1,14 @@
+fahrist adad F_1 := 100;
+fahrist boolean Ne_2 := sahi;
+adad Ar_1 := 0;
+
+dobara (Ar_1 < F_1) {
+    agar (Ar_1 % 2 == 0) {
+        adad Na_1 := Ar_1 * 3;
+        boolean Mg_1 := sahi;
+    } warna {
+        adad Al_1 := Ar_1 / 2;
+        boolean Si_2 := ghalat;
+    }
+    Ar_1 := Ar_1 + 1;
+}

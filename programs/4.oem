@@ -1,0 +1,16 @@
+adad Na_1 := 100;
+adad Cl_2 := 50;
+adad H_1 := 25;
+boolean O_1 := sahi;
+
+agar ((Na_1 >= Cl_2 + H_1) && O_1 == sahi) {
+    agar (Na_1 - Cl_2 > H_1 * 2) {
+        adad Si_1 := Na_1 / H_1;
+    } warna {
+        adad P_1 := Cl_2 * (H_1 + Na_1);
+    }
+} warna {
+    agar (O_1 != ghalat) {
+        adad B_1 := Na_1 - Cl_2 - H_1;
+    }
+}

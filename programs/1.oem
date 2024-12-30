@@ -1,0 +1,9 @@
+adad H_1 := 10;
+adad O_2 := 20;
+adad Na_1 := H_1 + O_2;
+
+agar (Na_1 > 20) {
+    wapas sahi;
+} warna {
+    wapas ghalat;
+}

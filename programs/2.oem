@@ -1,0 +1,12 @@
+boolean Mg_1 := sahi;
+boolean Al_2 := ghalat;
+
+agar (Mg_1 == sahi && Al_2 == ghalat) {
+    adad Si_1 := 100;
+    dobara (Si_1 > 0) {
+        Si_1 := Si_1 - 10;
+        agar (Si_1 < 50) {
+            roko;
+        }
+    }
+}

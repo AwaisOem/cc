@@ -1,0 +1,17 @@
+adad H_99 := 0;
+adad O_11 := 100;
+lafz F_12 := "";
+lafz Ne_10 := "Escaped Quotes";
+boolean Na_11 := sahi && ghalat;
+adad Mg_22 := ((10 + 5) * 3) / 2;
+
+agar (H_99 == 0 || O_11 < 0) {
+    dobara (O_11 < 0) {
+        H_99 := H_99 + 1;
+        O_11 := O_11 + (H_99 * 2);
+        
+        agar (H_99 > 25) {
+            roko;
+        }
+    }
+}

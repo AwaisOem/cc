@@ -1,0 +1,15 @@
+adad Li_1 := 10;
+adad Be_1 := 20;
+adad B_1 := 0;
+
+dobara (Li_1 > 0) {
+    adad Ne_1 := 5;
+    dobara (Ne_1 > 0) {
+        agar (B_1 >= 50) {
+            roko;
+        }
+        B_1 := B_1 + (Li_1 * Ne_1);
+        Ne_1 := Ne_1 - 1;
+    }
+    Li_1 := Li_1 - 1;
+}
