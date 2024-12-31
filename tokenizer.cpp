@@ -1,12 +1,3 @@
-// #include <iostream>
-// #include <sstream>
-// #include <string>
-// #include <cctype>
-// #include <unordered_map>
-// #include <vector>
-// #include <fstream>
-// #include <regex>
-
 #include<bits/stdc++.h>
 
 using namespace std;
